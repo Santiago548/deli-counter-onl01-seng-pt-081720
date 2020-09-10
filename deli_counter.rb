@@ -10,3 +10,8 @@ def line(deli)
     puts current_line
   end
 end
+
+def take_a_number(deli, name)
+  deli << name
+  puts "Welcome, #{name}. You are #{deli.length} in line."
+end
